@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ojas International Dashain Giveaway" />
+    <title>Ojas International | Dashain Giveaway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="home">
+        <nav class="nav wrap" aria-label="Main navigation">
+          <a class="brand" href="#home" aria-label="Ojas International home"><img src="assets/ojas-logo.png" alt="Ojas International" /></a>
+          <a class="nav-cta" href="#entry">Enter giveaway <span>→</span></a>
+        </nav>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="hero-grid wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Dashain 2083 Special</p>
+            <h1>Celebrate Dashain.<br /><em>Win smarter security.</em></h1>
+            <p class="intro">This Dashain, Ojas International is giving one lucky participant a complete HiLook security camera set — absolutely free.</p>
+            <div class="hero-actions">
+              <a class="button button-gold" href="#entry">Join the giveaway <span>→</span></a>
+              <a class="text-link" href="#prize">See the prize <span>↓</span></a>
+            </div>
+            <div class="trust"><div class="sparkle">✦</div><p>One entry per person<br /><strong>Simple. Fair. Confirmed.</strong></p></div>
+          </div>
+          <div class="hero-art">
+            <div class="sunburst"></div>
+            <div class="art-card"><img src="assets/giveaway-kit.jpeg" alt="HiLook four-camera security kit, NVR and PoE switch" /></div>
+            <div class="free-tag">100%<br /><strong>FREE</strong></div>
+            <div class="flower flower-a">✿</div><div class="flower flower-b">✿</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="prize wrap" id="prize">
+        <div class="section-heading"><p class="eyebrow dark"><span></span> The Dashain gift</p><h2>A complete peace-of-mind <em>package.</em></h2></div>
+        <div class="prize-grid">
+          <article><div class="icon">◉</div><h3>4× HiLook Cameras</h3><p>Reliable surveillance coverage for the spaces that matter most.</p></article>
+          <article><div class="icon">▣</div><h3>4 Channel NVR</h3><p>Record, review and manage every camera in one place.</p></article>
+          <article><div class="icon">⌘</div><h3>4 Port PoE Switch</h3><p>Effortless power and connection for a clean, secure setup.</p></article>
+        </div>
+      </section>
+
+      <section class="entry-section" id="entry">
+        <div class="wrap entry-layout">
+          <div class="entry-copy"><p class="eyebrow"><span></span> Your chance to win</p><h2>Ready to make your Dashain <em>safer?</em></h2><p>Fill in your details below. We’ll use them only to verify your entry and contact the winner.</p><div class="callout"><span>☎</span><div><strong>Need help?</strong><br />Call us at <a href="tel:9801989840">9801989840</a></div></div></div>
+          <form class="entry-form" id="giveaway-form">
+            <div class="form-top"><span>Giveaway entry</span><b>01 / 01</b></div>
+            <label>Full name<input name="name" type="text" placeholder="Your full name" required /></label>
+            <label>Mobile number<input name="phone" type="tel" placeholder="98XXXXXXXX" pattern="[0-9+ ]{8,15}" required /></label>
+            <label>Email address <small>(optional)</small><input name="email" type="email" placeholder="you@example.com" /></label>
+            <label>City / District<input name="location" type="text" placeholder="e.g. Kathmandu" required /></label>
+            <label class="check"><input type="checkbox" required /><span>I confirm that the details above are correct and I agree to receive giveaway updates from Ojas International.</span></label>
+            <button class="button button-gold submit" type="submit">Confirm my entry <span>→</span></button>
+            <p class="form-note">Your information stays private and secure.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><div class="wrap footer-inner"><img src="assets/ojas-logo.png" alt="Ojas International" /><p>Smart solutions for a safer tomorrow.</p><p>© 2026 Ojas International</p></div></footer>
+    <div class="modal" id="success-modal" aria-hidden="true"><div class="modal-card"><button aria-label="Close" class="close">×</button><div class="modal-star">✦</div><h2>You’re in!</h2><p>Your Dashain giveaway entry has been confirmed. Best of luck!</p><button class="button button-gold close">Done</button></div></div>
+    <script src="script.js"></script>
+  </body>
+</html>
